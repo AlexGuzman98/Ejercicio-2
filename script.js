@@ -51,7 +51,7 @@ for (var i = 0; i < botones.length; i++) {
 
 // Tu código aquí
 function incrementarFunc() {
-  let contador = 0
+  let contador = 1
   function incrementador() {
     return console.log(`Hiciste click en el boton ${contador++} veces`);
     }
