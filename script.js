@@ -53,7 +53,7 @@ for (var i = 0; i < botones.length; i++) {
 function incrementarFunc() {
   let contador = 0
   function incrementador() {
-    return console.log(`Hiciste click en el boton ${contador += 1} veces`);
+    return console.log(`Hiciste click en el boton ${contador++} veces`);
     }
     return incrementador;
 }
